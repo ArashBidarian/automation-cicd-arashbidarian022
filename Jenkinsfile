@@ -1,11 +1,12 @@
 pipeline {
-    /* insert Declarative Pipeline here */ //
+    /* insert Declarative Pipeline here */
     agent any
         stages {
         stage('Deploy/Build App') {
             steps {
-                sh 'pwd'
-                sh 'ls -lart'
+                sh '''
+                 echo 'Application deployed successfully!'
+                '''
             }
         }
         stage('Frontend tests') {
