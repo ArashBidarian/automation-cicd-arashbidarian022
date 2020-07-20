@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2020-07-20T05:52:09.346Z",
-    "end": "2020-07-20T05:52:12.099Z",
-    "duration": 2753,
+    "start": "2020-07-20T06:30:25.529Z",
+    "end": "2020-07-20T06:30:28.346Z",
+    "duration": 2817,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "4a421a70-343a-40fe-b52c-b4006f14ead1",
+      "uuid": "bfff05ee-9d94-4cb4-8968-3bd44bd1ee26",
       "title": "",
       "fullFile": "cypress/integration/regression-test-suite01-tc01-create-room.spec.js",
       "file": "cypress/integration/regression-test-suite01-tc01-create-room.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "1a855718-2453-4769-a60b-d2f404b519da",
+          "uuid": "3df0e808-8b4c-4d8f-a676-1a08684b93f3",
           "title": "Regression test suite",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Perform valid login",
               "fullTitle": "Regression test suite Perform valid login",
               "timedOut": null,
-              "duration": 1815,
+              "duration": 1911,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "//1. Open the browser and start the system\n//localhost:3000\n//The application is started.\ncy.visit('http://localhost:3000'); // Extra Assertion 02\ncy.title().should('include', 'Testers Hotel'); //2. Assert that the page is correct\n//Login\n//The user is in the right page \ncy.contains('Login'); //3. Inform/write the username\n//tester01\n//cy.get('div.field:nth-child(1) > input:nth-child(2)') Alternative 01\ncy.get(':nth-child(1) > input').type('tester01'); //4. Inform/Write the password\n// GteteqbQQgSr88SwNExUQv2ydb7xuf8c\ncy.get(':nth-child(2) > input').type('GteteqbQQgSr88SwNExUQv2ydb7xuf8c'); // Push Click on Login button\n//5. Click the login button\n//The user gains access to the system.\ncy.get('.btn').click(); //6. Assert that the user is on the “Hotel Overview” page \n//Tester Hotel Overview\n//The user is in the right page.\ncy.contains('Tester Hotel Overview'); //7. Assert that the right user is logged in\n//Welcome tester01!\n//The user is in the right page.\n//8. Click the View button for “Rooms” window\n// The user gains access to the Create Rooms window.\n//9. Assert that the user is in “Rooms” window\n//Rooms Reservations\n//The user is in the Rooms Reservations page.\n//10. Create: Click the Creat Room button\n// The user gains access to the New Room page\n//Assert that the  user is on New Room page\n//New Room\n//The user is in the New Room page\n//12. Add in valid information (alt. Random valid information) in all available windows\n//And Click Save button\n//  a. Selecting either the first available option from the available dropdowns (or randomly selected) or/and\n//  b. Add other valid values “manually” if there is no dropdown with predefined values available to choose from \n//The user gets back to the Create \n//Room page and can see the new created Room in the bottom of the page\n//13. Assert that the user is on Create Room page\n//Create Room\n//The user is in the Create Room page\n//14. \n//Assert that the Creation of Room was successful\n//Floor 1, Room 1\n//The  Creation of Room is successful\n//15. Click the button ‘logout’.\n//The user exits the system is forwarded to the login page.\ncy.get('.user > .btn').click(); //16. Assert that the page is correct\n//Login\n//The user is in the right page\ncy.contains('Login'); //Extra Assertion 02\ncy.title().should('include', 'Testers Hotel');",
               "err": {},
-              "uuid": "cb36a36d-ca93-409f-8a01-f791cec90647",
-              "parentUUID": "1a855718-2453-4769-a60b-d2f404b519da",
+              "uuid": "35b4ec2b-7ce9-454f-a71e-c3880bfcbb16",
+              "parentUUID": "3df0e808-8b4c-4d8f-a676-1a08684b93f3",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "cb36a36d-ca93-409f-8a01-f791cec90647"
+            "35b4ec2b-7ce9-454f-a71e-c3880bfcbb16"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 1815,
+          "duration": 1911,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
