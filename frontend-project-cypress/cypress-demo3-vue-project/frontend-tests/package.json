@@ -7,8 +7,6 @@
     "cypress:run": "cypress run --reporter mochawesome",
     "cypress:frontend": "cypress run --spec cypress/integration/regression-test-suite00-loginlogout.spec.js --reporter mochawesome",
     "test": "echo \"Error: no test specified\" && exit 1"
-    
-
   },
   "keywords": [],
   "author": "",
@@ -19,7 +17,7 @@
   "dependencies": {
     "mocha": "^5.2.0",
     "mochawesome": "^6.1.1",
-    "mochawesome-merge": "^4.0.3"
+    "mochawesome-merge": "^4.1.0"
   },
   "description": ""
 }
