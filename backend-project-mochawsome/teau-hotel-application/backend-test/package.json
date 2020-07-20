@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "cypress open",
-    "test:report:assignment2": "cypress run --spec cypress/integration/backend-auth-assignment02.spec.js --reporter mochawesome",
+    "test:report:assignment02": "cypress run --spec cypress/integration/backend-auth-assignment02.spec.js --reporter mochawesome",
     "test:report:experiment": "cypress run --spec cypress/integration/experimenteditTestCase.spec.js --reporter mochawesome"
   },
   "keywords": [],

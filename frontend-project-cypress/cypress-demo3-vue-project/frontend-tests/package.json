@@ -5,7 +5,10 @@
   "scripts": {
     "cypress:open": "cypress open",
     "cypress:run": "cypress run --reporter mochawesome",
+    "cypress:frontend": "cypress run --spec cypress/integration/regression-test-suite00-loginlogout.spec.js --reporter mochawesome",
     "test": "echo \"Error: no test specified\" && exit 1"
+    
+
   },
   "keywords": [],
   "author": "",
