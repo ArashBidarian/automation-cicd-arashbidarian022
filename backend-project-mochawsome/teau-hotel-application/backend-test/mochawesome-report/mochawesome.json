@@ -5,9 +5,9 @@
     "passes": 3,
     "pending": 0,
     "failures": 0,
-    "start": "2020-07-20T08:48:45.255Z",
-    "end": "2020-07-20T08:48:47.138Z",
-    "duration": 1883,
+    "start": "2020-07-20T11:22:52.055Z",
+    "end": "2020-07-20T11:22:53.914Z",
+    "duration": 1859,
     "testsRegistered": 3,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "2657f8c4-c370-4c7b-b48b-623ebdb9c989",
+      "uuid": "b24d7152-06e6-4342-8ac6-4ef744b4505b",
       "title": "",
       "fullFile": "cypress/integration/backend-auth-assignment02.spec.js",
       "file": "cypress/integration/backend-auth-assignment02.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "11a9ff65-dcfb-41e4-9686-a1446614e165",
+          "uuid": "af6e731d-f22e-45ea-81cf-60fe51765d37",
           "title": "testing auth",
           "fullFile": "",
           "file": "",
@@ -47,8 +47,8 @@
               "context": null,
               "code": "billHelpers.createBillRequest(cy);",
               "err": {},
-              "uuid": "ec5af7e8-ddc7-4c1c-b8a0-7af3c797a783",
-              "parentUUID": "11a9ff65-dcfb-41e4-9686-a1446614e165",
+              "uuid": "0810cab0-6828-4e35-88ad-d1d073379f88",
+              "parentUUID": "af6e731d-f22e-45ea-81cf-60fe51765d37",
               "isHook": false,
               "skipped": false
             },
@@ -56,7 +56,7 @@
               "title": "test case 2 - Create & Get all bills (GET & POST)",
               "fullTitle": "testing auth test case 2 - Create & Get all bills (GET & POST)",
               "timedOut": null,
-              "duration": 582,
+              "duration": 602,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -65,8 +65,8 @@
               "context": null,
               "code": "billHelpers.createBillRequest(cy);",
               "err": {},
-              "uuid": "58d42a80-c483-4d3d-a90c-cac855027f70",
-              "parentUUID": "11a9ff65-dcfb-41e4-9686-a1446614e165",
+              "uuid": "0f14fd48-0644-4e69-81e6-4ae52beca125",
+              "parentUUID": "af6e731d-f22e-45ea-81cf-60fe51765d37",
               "isHook": false,
               "skipped": false
             },
@@ -74,7 +74,7 @@
               "title": "test case 3 - Creatre a Bill & delete it (GET, POST & DELETE)",
               "fullTitle": "testing auth test case 3 - Creatre a Bill & delete it (GET, POST & DELETE)",
               "timedOut": null,
-              "duration": 582,
+              "duration": 565,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -83,22 +83,22 @@
               "context": null,
               "code": "billHelpers.createBillRequestAndDelete(cy);",
               "err": {},
-              "uuid": "6eecf88c-59d7-4307-8f1b-15c1e7fcbc41",
-              "parentUUID": "11a9ff65-dcfb-41e4-9686-a1446614e165",
+              "uuid": "e5d5bbae-9350-4901-91f2-b4d0f7a13d73",
+              "parentUUID": "af6e731d-f22e-45ea-81cf-60fe51765d37",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "ec5af7e8-ddc7-4c1c-b8a0-7af3c797a783",
-            "58d42a80-c483-4d3d-a90c-cac855027f70",
-            "6eecf88c-59d7-4307-8f1b-15c1e7fcbc41"
+            "0810cab0-6828-4e35-88ad-d1d073379f88",
+            "0f14fd48-0644-4e69-81e6-4ae52beca125",
+            "e5d5bbae-9350-4901-91f2-b4d0f7a13d73"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 1830,
+          "duration": 1833,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

@@ -4,8 +4,8 @@
   "main": "index.js",
   "scripts": {
     "cypress:open": "cypress open",
-    "cypress:frontend": "cypress run --reporter mochawesome",
-    "cypress:runlogin": "cypress run --spec cypress/integration/regression-test-suite00-loginlogout.spec.js --reporter mochawesome",
+    "cypress:run": "cypress run --reporter mochawesome",
+    "cypress:report:frontend": "cypress run --spec cypress/integration/regression-test-suite00-loginlogout.spec.js --reporter mochawesome",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
